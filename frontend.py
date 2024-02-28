@@ -137,6 +137,7 @@ def create_connection():
     try:
         con = mysql.connector.connect(
             host='localhost',
+            port= 3307,
             user='root',
             password='admin',
         )
